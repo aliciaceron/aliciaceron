@@ -90,7 +90,7 @@ a:hover, a h1:hover, a h2:hover {
 }
 
 .gallery {
-  width: 33.33%;
+  width: 50%;
   float: left;
   padding: 10px;
   display: block;
