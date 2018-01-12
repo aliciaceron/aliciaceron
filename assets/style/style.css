@@ -89,7 +89,7 @@ a:hover, a h1:hover, a h2:hover {
   top: 100px;
 }
 
-.project {
+.gallery {
   width: 33.33%;
   float: left;
   padding: 10px;
@@ -117,7 +117,7 @@ a:hover, a h1:hover, a h2:hover {
   width: 100%;
 }
 
-.painting {
+.headshot {
   width: 100%;
 }
 
