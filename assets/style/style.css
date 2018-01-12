@@ -118,7 +118,11 @@ a:hover, a h1:hover, a h2:hover {
 }
 
 .headshot {
-  width: 70%;
+  width: 100%;
+}
+
+.past-productions {
+  width: 100%;
 }
 
 .press {
