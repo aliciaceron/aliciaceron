@@ -1,0 +1,161 @@
+/*css for aliciaceron.com
+by aaron montoya-moraga
+january 2018*/
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, div {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+}
+/*set font to Helvetica*/
+/*normal text, no italics, no bold*/
+/*centered text*/
+/*display in block*/
+/*reset margin and padding for google chrome */
+/*no padding (inner space of element)*/
+
+p, h1, h2, h3, h4, h5, h6 {
+    font-family: "Helvetica", sans-serif;
+    font-weight: normal;
+    text-align: center;
+    display: block;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+    padding: 0;
+}
+
+p {
+  margin-bottom: 1.5em;
+}
+
+  /*reset of format*/
+  /*set color to black*/
+a {
+    text-decoration: none;
+    font-family:"Helvetica", sans-serif;
+    color: black;
+    margin: 0;
+    outline: 0;
+    border: 0;
+}
+
+/*change opacity of link*/
+a:hover, a h1:hover, a h2:hover {
+    opacity: 0.5;
+}
+
+#myHeader {
+  float: left;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+#myNavMenu {
+    width: 100%;
+    overflow: auto;
+}
+
+#myNavMenu a {
+    float: left;
+    width: 16.6%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    transition: all 0.5s ease;
+}
+
+#menuSelection {
+    background: orange;
+}
+
+/*#resume {
+  width: 100%;
+  padding-top: 3%;
+  padding-left: 5%;
+}*/
+
+#contact {
+  position: relative;
+  width: 100%;
+  top: 100px;
+}
+
+.project {
+  width: 33.33%;
+  float: left;
+  padding: 10px;
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+
+#about{
+  width: 100%;
+  padding: 10%;
+}
+
+#coverPicture{
+  display: block;
+  margin: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+  max-width: 50%;
+  height: auto;
+}
+
+.music {
+  width: 100%;
+}
+
+.painting {
+  width: 100%;
+}
+
+.photography {
+  width: 100%;
+}
+
+a.project h3 {
+  margin: 0;
+  font-size: 1em;
+}
+
+.project img {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  /*border-radius: 10%;*/
+  /*border: 1px solid #000;*/
+}
+
+.project iframe {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  /*border-radius: 10%;*/
+  /*border: 1px solid #000;*/
+}
+
+  /* For mobile phones: */
+@media only screen and (max-width: 768px) {
+  .project {
+      width: 100%;
+  }
+  #myNavMenu a {
+      float: left;
+      width: 100%;
+  }
+  #coverPicture {
+      max-width: 80%;
+  }
+}
